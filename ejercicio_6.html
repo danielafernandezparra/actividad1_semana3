@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale-1">
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+	html, body{
+		margin: 0px;
+		padding:0px;
+	}
+		.row{
+			clear: both;
+		}
+		.header{
+			padding: 100px 50px;
+			background-color: #0ed80e;
+			text-align: center;
+			color: white;
+		}
+		.col-sm-1{
+			float: left;
+			width: 33%;
+			padding: 5px;
+			box-sizing: border-box;
+			display: table-cell;
+		}
+		@media (max-width: 480px){
+			.col-sm-1{
+				float: left;
+				width: 100%;
+			}
+		}
+		.img-responsive{
+			max-width: 100%;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="header">
+			<p>HOLA !!<br> ESTE ES UN EJERCICIO DE GRILLAS<br></p>
+		</div>
+	</div>
+<div class="row">
+	<div class="col-sm-1">
+		<img src="images/imagen.jpg" class="img-responsive">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		</p>
+	</div>
+	<div class="col-sm-1">
+		<img src="images/imagen.jpg" class="img-responsive">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		</p>
+	</div>
+	<div class="col-sm-1">
+		<img src="images/imagen.jpg" class="img-responsive">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		</p>
+	</div>
+</div>
+</div>
+</body>
+</html>
